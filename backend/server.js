@@ -24,7 +24,7 @@ app.use((req, res, next) => {
 app.use("/api/tasks", tasksRoutes);
 
 //Connect to db
-mongoose.connect(process.env.MONG_URI) //async
+mongoose.connect(process.env.MONGO_URI) //async
     .then(()=> {    //Only run when conncected to database
         //Listen for requests
         app.listen(process.env.PORT, () => {
