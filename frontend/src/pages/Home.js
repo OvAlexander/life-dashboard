@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 //Components
 import TaskDetail from "../componets/TaskDetail";
+import TaskForm from "../componets/TaskForm";
 
 const Home = () => {
   const [tasks, setTasks] = useState(null);
@@ -23,6 +24,7 @@ const Home = () => {
         {tasks &&
           tasks.map((task) => <TaskDetail key={task._id} task={task} />)}
       </div>
+      <TaskForm />
     </div>
   );
 };
