@@ -3,16 +3,16 @@
 
 /* layout */
 :root {
-  --primary: #1aac83;
+  --primary: #1a32ac;
   --error: #e7195a;
 }
 body {
-  background: #f1f1f1;
+  background: #84dcf3;
   margin: 0;
-  font-family: "Poppins";
+  font-family: "cursive", cursive;
 }
 header {
-  background: #fff;
+  background: #84dcf3;
 }
 header .container {
   max-width: 1400px;
@@ -23,7 +23,7 @@ header .container {
   justify-content: space-between;
 }
 header a {
-  color: #333;
+  color: #1a32ac;
   text-decoration: none;
 }
 .pages{
@@ -54,17 +54,17 @@ header a {
 .task-detail p {
   margin: 0;
   font-size: 0.9em;
-  color: #555;
+  color: #15298e;
 }
 .task-detail span {
   position: absolute;
   top: 20px;
   right: 20px;
   cursor: pointer;
-  background: #f1f1f1;
+  background: #84dcf3;
   padding: 6px;
   border-radius: 50%;
-  color: #333;
+  color: #15298e;
 }
 
 /* new workout form */
@@ -85,7 +85,7 @@ form button {
   border: 0;
   color: #fff;
   padding: 10px;
-  font-family: "Poppins";
+  font-family: "cursive", cursive;
   border-radius: 4px;
   cursor: pointer;
 }
